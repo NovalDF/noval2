@@ -1,0 +1,84 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    background-color: #3b3668;
+    color: #fff;
+    padding: 2rem 0;
+}
+
+header img {
+    border-radius: 150%;
+    max-width: 150px;
+    height: auto;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #35424a;
+    padding: 1rem 0;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* Section styles */
+section {
+    padding: 3rem;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+section p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    background-color: #35424a;
+    color: #fff;
+    padding: 1rem 0;
+    font-size: 1rem;
+}
